@@ -4,14 +4,14 @@ describe("truncateFilename", function() {
         expect(truncateFilename).toBeDefined();
     });
 
-    it("should not truncateFilename shorter string", function() {
+    it("should not truncate shorter string", function() {
         var original = "hello world";
 
         expect(truncateFilename(original, original.length)).toEqual(original);
         expect(truncateFilename(original, original.length).length).toEqual(original.length);
     });
     
-    it("should truncateFilename string with ending", function() {
+    it("should truncate string with ending", function() {
         var original = "hello world, what a beautifull day.";
 
         expect(truncateFilename(original, 12, "!")).toEqual("hello world!");
