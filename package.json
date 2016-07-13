@@ -1,0 +1,36 @@
+{
+  "name": "truncateFilename",
+  "author": "Stefan Backor <stevo@backor.sk> (http://backor.sk)",
+  "description": "truncateFilenames a JavaScript string",
+  "homepage": "http://backor.sk",
+  "version": "0.1.0",
+  "main": "truncateFilename.min.js",
+  "keywords": [
+    "truncateFilename",
+    "smart truncateFilename",
+    "truncateFilename string",
+    "truncateFilename filename",
+    "string"
+  ],
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pista329/truncateFilename.git"
+  },
+  "engines": {
+    "node": ">= 0.8.x"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jasmine": "^1.0.3",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/pista329/truncateFilename/issues"
+  },
+  "license": "MIT"
+}
