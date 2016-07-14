@@ -8,24 +8,11 @@ Truncates a filename string preserving filename extension.
 npm install truncateFilename
 ```
 
-To then include truncateFilename in your node app:
-
-```
-var truncateFilename = require("truncateFilename");
-```
-
-### Using truncateFilename
+### Example usage
 
 ```js
-var result = truncateFilename("helloWorld.minified.js", 15, "...");
-```
-
-### Example
-
-```js
-var original = "helloWorld.minified.js";
-
-truncateFilename(original, 15, "...");
+import {truncateFilename} from "truncateFilename";
+var result = truncateFilename("helloWorld-example.minified.js", 15, "...");
 // "hello...fied.js"
 ```
 
