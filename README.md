@@ -1,4 +1,4 @@
-# truncateFilename [![Build Status](https://travis-ci.org/pista329/truncateFilename.png?branch=master)](https://travis-ci.org/pista329/truncateFilename) [![npm version](https://badge.fury.io/js/truncateFilename.png)](https://npmjs.org/package/truncateFilename) [![devDependency Status](https://david-dm.org/pista329/truncateFilename/dev-status.png)](https://david-dm.org/pista329/truncateFilename#info=devDependencies)
+# truncateFilename
 
 Truncates a filename string preserving filename extension.
 
